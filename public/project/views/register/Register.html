@@ -1,0 +1,16 @@
+﻿<div class="container-fluid">
+    <div ng-show="show" class="alert alert-danger" role="alert"> {{errorMessage}}</div>
+    <div ng-show="userNameExits" class="alert alert-danger" role="alert"> {{errorMessage}}</div>
+
+    <h1>Register</h1>
+    <label>Username</label>
+    <input ng-model="user.username" type="text" id="inputUsername" class="form-control ng-pristine ng-untouched ng-invalid ng-invalid-required" placeholder="Username" required="">
+    <br/>
+    <label>Password</label>
+    <input ng-model="user.password" type="password" id="inputPassword" class="form-control ng-pristine ng-untouched ng-invalid ng-invalid-required" placeholder="Password" required="">
+    <br/>
+    <label>Password Confirm</label>
+    <input ng-model="user.password2" type="password" id="inputPassword2" class="form-control ng-pristine ng-untouched ng-invalid ng-invalid-required" placeholder="Type Your Password again " required="">
+    <br/>
+    <button ng-click="register(user)" class="btn btn-info btn-block" type="submit">Sign Up</button>
+</div>
