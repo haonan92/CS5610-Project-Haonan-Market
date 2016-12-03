@@ -1,0 +1,36 @@
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <p class="navbar-text pull-right">
+            <a ng-click="model.updateWidget(widget)" class="navbar-link">
+                <span class="glyphicon glyphicon-ok"></span>
+            </a>
+        </p>
+        <p class="navbar-text pull-left">
+            <a class="navbar-link" href="#/user/{{model.userId}}/website/{{model.websiteId}}/page/{{model.pageId}}/widget">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+        </p>
+        <div class="navbar-header">
+            <a class="navbar-brand">Widget Image Edit</a>
+        </div>
+    </div>
+</nav>
+
+<div class="container-fluid contentPadding">
+    <form>
+        <div class="form-group">
+            <label for="url">URL</label>
+            <input ng-model="model.widget.url" type="url" class="form-control" id="url">
+        </div>
+        <div class="form-group">
+            <label for="width">Width</label>
+            <input ng-model="model.widget.width" type="number" class="form-control" id="width" value="100%">
+        </div>
+        <div class="form-group">
+            <label for="file">Upload</label>
+            <input type="file" class="form-control" id="file">
+        </div>
+        <a class="btn btn-primary btn-block" href="#/user/{{model.userId}}/website/{{model.websiteId}}/page/{{model.pageId}}/widget">Upload Image</a>
+        <a ng-click="model.deleteWidget(widget)" class="btn btn-danger btn-block">Delete</a>
+    </form>
+</div>

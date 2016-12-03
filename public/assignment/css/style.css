@@ -1,0 +1,128 @@
+.navbar-default {
+    background-color: #337ab7;
+}
+.navbar-fixed-bottom {
+    background-color: #145f84;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+.navbar-default .navbar-link {
+    color: white;
+}
+
+.contentPadding {
+    padding-top: 30px;
+}
+
+body {
+    padding-top: 40px;
+    padding-bottom: 56px;
+}
+
+input.form-control {
+    margin-bottom: 5px;
+}
+
+.list-group-item {
+    border: 1px;
+}
+
+.page-divider {
+    left:33%;
+    width:1px;
+    top: 0;
+    bottom: 0;
+    position: fixed;
+    background-color: #337ab7;
+}
+.section-space {
+    padding-top: 5px;
+}
+
+.relative-position {
+    position: relative;
+}
+
+.absolute-position {
+    position: absolute;
+}
+
+.youtube-widget {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+}
+
+.youtube-widget iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.symbol-overlay {
+    top: 0px;
+    right: 0px;
+    z-index: 100;
+    background-color: white;
+}
+
+h1.superme{
+    color: olivedrab;
+}
+
+
+
+
+
+
+div.img {
+    border: 1px solid #ccc;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}

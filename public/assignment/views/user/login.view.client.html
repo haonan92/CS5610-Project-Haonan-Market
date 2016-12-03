@@ -1,0 +1,28 @@
+<div class="container" >
+    <nav>
+        <a href="#/home"><img src= "image/logo.png"></a>
+        <ul class="nav nav-pills pull-right">
+            <li><a href="#/home">Home</a></li>
+            <li><a href="#/register" ng-show ="!currentUser">Register</a></li>
+        </ul>
+    </nav>
+</div>
+<div class="container">
+    <div ng-show="model.error" class="alert alert-danger" role="alert"> {{model.error}}</div>
+    <h1>Login</h1>
+    <input type="text"
+           ng-model = "model.username"
+           class="form-control"
+           placeholder="username"/>
+    <input type="password"
+           ng-model = "model.password"
+           class="form-control"
+           placeholder="password"/>
+    <a ng-click="model.login(model.username, model.password)" class="btn btn-primary btn-block">Login</a>
+    <a class="btn btn-success btn-block"
+       href="#/register">Register</a>
+    <a href="/auth/facebook" class="btn btn-primary btn-block">
+        <span class="fa fa-facebook"></span>
+        Facebook
+    </a>
+</div>

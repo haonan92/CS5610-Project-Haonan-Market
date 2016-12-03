@@ -1,0 +1,87 @@
+
+<div class="container" >
+    <nav>
+        <a href="#/home"><img src= "image/logo.png"></a>
+        <ul class="nav nav-pills pull-right">
+            <li><a href="#/login" ng-show ="!currentUser">Login</a></li>
+            <li><a href="#/register" ng-show ="!currentUser">Register</a></li>
+            <li><a href="#/user/{{currentUser._id}}" ng-show="currentUser">Profile</a></li>
+        </ul>
+    </nav>
+</div>
+
+<div class="container" >
+
+
+    <div>
+        <p style="text-align: center; font-weight: bold;">Black Friday 50% OFF / Free Shipping Within the US</p>
+        <img style="width: 100%" src="image/supermarket.jpg">
+    </div>
+
+
+    <h3>Search Items here</h3>
+    <!--This represent the search bar-->
+    <div class="input-group">
+        <input ng-model="titleSearch" type="text" class="form-control" placeholder="search for...">
+        <span class="input-group-btn">
+                <button ng-click="model.searchTitle()" class="btn btn-success " type="button">
+                    <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                </button>
+            </span>
+    </div>
+
+    <table class="table table-striped">
+        <tbody>
+        <tr ng-repeat="stuff in model.stuffs.items">
+            <td>
+                <a href="#detail/{{stuff.itemId}}">
+                    <h4 style="font-weight: bold" class="ng-binding">
+                        {{stuff.name}}
+                    </h4>
+                </a>
+            </td>
+            <td>{{stuff.salePrice}}</td>
+            <td><img src="{{stuff.thumbnailImage}}" /></td>
+        </tr>
+        </tbody>
+    </table>
+
+    <div class="responsive">
+        <div class="img">
+            <a target="_blank">
+                <img src="image/banana-doggy.jpg" alt="Trolltunga Norway" width="600" height="400">
+            </a>
+        </div>
+    </div>
+
+
+    <div class="responsive">
+        <div class="img">
+            <a target="_blank">
+                <img src="image/fruit-animal.jpg" alt="Forest" width="600" height="400">
+            </a>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="img">
+            <a target="_blank">
+                <img src="image/apple-turkey.jpg" alt="Forest" width="600" height="400">
+            </a>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="img">
+            <a target="_blank">
+                <img src="image/fruit-animal.jpg" alt="Forest" width="600" height="400">
+            </a>
+        </div>
+    </div>
+
+
+
+
+
+
+</div>

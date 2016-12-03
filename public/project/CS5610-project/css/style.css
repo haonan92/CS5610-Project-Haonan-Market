@@ -1,0 +1,64 @@
+.navbar-default {
+    background-color: black;
+    border-color: black;
+}
+.navbar-fixed-bottom {
+    background-color: black;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+.navbar-default .navbar-link {
+    color: white;
+}
+
+.contentPadding {
+    padding-top: 30px;
+}
+
+body {
+    padding-top: 40px;
+    padding-bottom: 56px;
+    background-color: black;
+}
+
+input.form-control {
+    margin-bottom: 5px;
+}
+
+.list-group-item {
+    border: 1px;
+}
+
+.page-divider {
+    left:33%;
+    width:1px;
+    top: 0;
+    bottom: 0;
+    position: fixed;
+    background-color: #337ab7;
+}
+.section-space {
+    padding-top: 5px;
+}
+
+.relative-position {
+    position: relative;
+}
+
+.absolute-position {
+    position: absolute;
+}
+
+.symbol-overlay {
+    top: 0px;
+    right: 0px;
+    z-index: 100;
+    background-color: white;
+}
+
+h1.superme{
+    color: olivedrab;
+}

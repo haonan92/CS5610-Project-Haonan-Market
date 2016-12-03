@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="15019992-0393-43c7-8ac2-82a952a49970" name="Default" comment="" />
-    <ignored path="Web-master.iws" />
+    <list default="true" id="3a341108-c198-49e1-aeb8-c003c61ec310" name="Default" comment="" />
+    <ignored path="Zhao-Haonan-webdev-assignment4.1.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,35 +19,65 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="Web-master" />
+    <favorites_list name="Zhao-Haonan-webdev-assignment4.1" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LoginPage.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/project/views/login/LoginPage.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="14" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state relative-caret-position="1380">
+              <caret line="60" column="6" selection-start-line="60" selection-start-column="6" selection-end-line="60" selection-end-column="6" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#1535#1542#0" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#1860#1867#0" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#2164#2171#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.view.client.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/assignment/views/home/home.view.client.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
+              <folding>
+                <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="facebook.view.client.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/assignment/views/user/facebook.view.client.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="detail.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/project/views/detail/detail.js">
+      <file leaf-file-name="login.controller.client.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/assignment/views/user/login.controller.client.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="103" column="32" selection-start-line="103" selection-start-column="19" selection-end-line="103" selection-end-column="32" />
+            <state relative-caret-position="334">
+              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="detail.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/project/views/detail/detail.html">
+      <file leaf-file-name="profile.controler.client.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/assignment/views/user/profile.controler.client.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="31" column="57" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
+            <state relative-caret-position="1771">
+              <caret line="77" column="9" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -60,49 +90,70 @@
       <list>
         <option value="JavaScript File" />
         <option value="HTML File" />
-        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Project/views/detail/detail.html" />
-        <option value="$PROJECT_DIR$/Project/views/detail/detail.js" />
-        <option value="$PROJECT_DIR$/Project/views/home/home.js" />
-        <option value="$PROJECT_DIR$/Project/views/home/HomePage.html" />
-        <option value="$PROJECT_DIR$/.openshift/README.md" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/deplist.txt" />
+        <option value="$PROJECT_DIR$/public/assignment/views/widget/widget-image-editor.html" />
+        <option value="$PROJECT_DIR$/public/assignment/services/flickr.service.client.html" />
+        <option value="$PROJECT_DIR$/assignment/services/widget.service.server.js" />
+        <option value="$PROJECT_DIR$/public/assignment/views/widget/widget-flickr-search.controller.client.js" />
+        <option value="$PROJECT_DIR$/public/assignment/services/widget.service.client.js" />
+        <option value="$PROJECT_DIR$/public/assignment/services/flickr.service.client.js" />
+        <option value="$PROJECT_DIR$/public/assignment/views/widget/widget-flickr-search.view.client.html" />
+        <option value="$PROJECT_DIR$/public/assignment/views/widget/widget-html-editor.html" />
+        <option value="$PROJECT_DIR$/public/assignment/views/widget/widget-chooser.view.client.html" />
+        <option value="$PROJECT_DIR$/assignment/models/widget/widget.schema.server.js" />
+        <option value="$PROJECT_DIR$/public/assignment/views/widget/widget-text.view.client.html" />
+        <option value="$PROJECT_DIR$/public/assignment/views/widget/widget-edit.controller.js" />
+        <option value="$PROJECT_DIR$/assignment/models/widget/widget.model.server.js" />
+        <option value="$PROJECT_DIR$/public/assignment/views/widget/widget-chooser.controller.js" />
+        <option value="$PROJECT_DIR$/public/assignment/views/widget/widget-list.view.client.html" />
+        <option value="$PROJECT_DIR$/public/assignment/views/widget/widget-text-editor.html" />
+        <option value="$USER_HOME$/Desktop/jumbotron/index.html" />
+        <option value="$PROJECT_DIR$/public/assignment/js/app.js" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/Web.config" />
-        <option value="$PROJECT_DIR$/Project/views/database/userdata.html" />
-        <option value="$PROJECT_DIR$/Project/views/database/database.html" />
-        <option value="$PROJECT_DIR$/Project/views/database/database.js" />
-        <option value="$PROJECT_DIR$/Project/views/profile/profile.html" />
-        <option value="$PROJECT_DIR$/Project/index.html" />
-        <option value="$PROJECT_DIR$/Project/views/login/login.js" />
-        <option value="$PROJECT_DIR$/Project/views/login/LoginPage.html" />
-        <option value="$PROJECT_DIR$/Project/views/register/Register.html" />
-        <option value="$PROJECT_DIR$/Project/views/register/register.js" />
-        <option value="$PROJECT_DIR$/Project/js/app.js" />
-        <option value="$PROJECT_DIR$/Project/views/profile/success.html" />
-        <option value="$PROJECT_DIR$/homepage.html" />
         <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/assignment/models/comment/comment.schema.server.js" />
+        <option value="$PROJECT_DIR$/assignment/models/stuff/stuff.model.server.js" />
+        <option value="$PROJECT_DIR$/assignment/services/stuff.service.server.js" />
+        <option value="$PROJECT_DIR$/public/assignment/views/home/home.controller.client.js" />
+        <option value="$PROJECT_DIR$/public/assignment/services/detail.service.client.js" />
+        <option value="$PROJECT_DIR$/assignment/services/comment.service.client.js" />
+        <option value="$PROJECT_DIR$/assignment/app.js" />
+        <option value="$PROJECT_DIR$/assignment/models/models.server.js" />
+        <option value="$PROJECT_DIR$/assignment/services/detail.service.server.js" />
+        <option value="$PROJECT_DIR$/assignment/models/comment/comment.model.server.js" />
+        <option value="$PROJECT_DIR$/public/assignment/services/comment.service.client.js" />
+        <option value="$PROJECT_DIR$/assignment/services/comment.service.server.js" />
+        <option value="$PROJECT_DIR$/public/assignment/views/detail/detail.controller.client.js" />
+        <option value="$PROJECT_DIR$/public/assignment/index.html" />
+        <option value="$PROJECT_DIR$/public/assignment/views/user/register.view.client.html" />
+        <option value="$PROJECT_DIR$/assignment/models/stuff/stuff.schema.server.js" />
+        <option value="$PROJECT_DIR$/public/assignment/views/detail/detail.view.client.html" />
+        <option value="$PROJECT_DIR$/public/assignment/views/user/profile.view.client.html" />
+        <option value="$PROJECT_DIR$/public/assignment/views/user/profile.controler.client.js" />
+        <option value="$PROJECT_DIR$/public/assignment/views/user/register.controller.client.js" />
+        <option value="$PROJECT_DIR$/public/assignment/services/user.service.client.js" />
+        <option value="$PROJECT_DIR$/public/assignment/views/user/login.view.client.html" />
+        <option value="$PROJECT_DIR$/assignment/services/user.service.server.js" />
+        <option value="$PROJECT_DIR$/public/assignment/js/config.js" />
+        <option value="$PROJECT_DIR$/assignment/models/user/user.model.server.js" />
+        <option value="$PROJECT_DIR$/assignment/models/user/user.schema.server.js" />
+        <option value="$PROJECT_DIR$/public/assignment/css/style.css" />
         <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/public/css/index.css" />
-        <option value="$PROJECT_DIR$/public/project/views/login/LoginPage.html" />
-        <option value="$PROJECT_DIR$/public/project/views/register/Register.html" />
-        <option value="$PROJECT_DIR$/public/project/views/register/register.js" />
-        <option value="$PROJECT_DIR$/public/project/views/profile/success.html" />
-        <option value="$PROJECT_DIR$/public/project/views/detail/detail.js" />
-        <option value="$PROJECT_DIR$/public/project/views/detail/detail.html" />
+        <option value="$PROJECT_DIR$/public/assignment/views/home/home.view.client.html" />
+        <option value="$PROJECT_DIR$/public/assignment/views/user/facebook.view.client.html" />
+        <option value="$PROJECT_DIR$/public/assignment/views/user/login.controller.client.js" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
@@ -111,10 +162,9 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-289" />
-    <option name="y" value="204" />
-    <option name="width" value="1386" />
-    <option name="height" value="700" />
+    <option name="y" value="51" />
+    <option name="width" value="991" />
+    <option name="height" value="629" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -142,32 +192,31 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="CS5610-Project-Dev" />
+              <option name="myItemId" value="projectddddddddddddddddddddddddddddddddddddddddd" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="CS5610-Project-Dev" />
+              <option name="myItemId" value="projectddddddddddddddddddddddddddddddddddddddddd" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="CS5610-Project-Dev" />
+              <option name="myItemId" value="projectddddddddddddddddddddddddddddddddddddddddd" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="CS5610-Project-Dev" />
+              <option name="myItemId" value="projectddddddddddddddddddddddddddddddddddddddddd" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="CS5610-Project-Dev" />
+              <option name="myItemId" value="projectddddddddddddddddddddddddddddddddddddddddd" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -177,11 +226,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="CS5610-Project-Dev" />
+              <option name="myItemId" value="projectddddddddddddddddddddddddddddddddddddddddd" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="CS5610-Project-Dev" />
+              <option name="myItemId" value="projectddddddddddddddddddddddddddddddddddddddddd" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -189,17 +238,17 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="project" />
+              <option name="myItemId" value="assignment" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="CS5610-Project-Dev" />
+              <option name="myItemId" value="projectddddddddddddddddddddddddddddddddddddddddd" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="CS5610-Project-Dev" />
+              <option name="myItemId" value="projectddddddddddddddddddddddddddddddddddddddddd" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -207,7 +256,33 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="project" />
+              <option name="myItemId" value="assignment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectddddddddddddddddddddddddddddddddddddddddd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectddddddddddddddddddddddddddddddddddddddddd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assignment" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -217,81 +292,42 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="CS5610-Project-Dev" />
+              <option name="myItemId" value="projectddddddddddddddddddddddddddddddddddddddddd" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="CS5610-Project-Dev" />
+              <option name="myItemId" value="projectddddddddddddddddddddddddddddddddddddddddd" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="login" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CS5610-Project-Dev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CS5610-Project-Dev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="detail" />
+              <option name="myItemId" value="assignment" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Haonan\CS5610-Project-Dev" />
-      <recent name="C:\Users\Haonan\CS5610-Project-Dev\Project" />
-      <recent name="C:\Users\Haonan\CS5610-Project-Dev\Project\views\profile" />
+      <recent name="C:\Users\Haonan\Zhao_Haonan-webdev-deveploment\public\image-for-home" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Haonan\CS5610-Project-Dev\public\project\images" />
-      <recent name="C:\Users\Haonan\CS5610-Project-Dev\public\image" />
-      <recent name="C:\Users\Haonan\CS5610-Project-Dev\homepage" />
-      <recent name="C:\Users\Haonan\CS5610-Project-Dev\Project" />
-      <recent name="C:\Users\Haonan\Web-master\Project\images" />
+      <recent name="C:\Users\Haonan\projectddddddddddddddddddddddddddddddddddddddddd\public\assignment\image" />
+      <recent name="C:\Users\Haonan\Zhao_Haonan-webdev-uat\public\assignment\image" />
+      <recent name="C:\Users\Haonan\Zhao_Haonan-webdev-deveploment\public\image-for-home" />
+      <recent name="C:\Users\Haonan\Zhao_Haonan-webdev-deveploment\public\css" />
     </key>
   </component>
   <component name="RunManager">
@@ -357,68 +393,78 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="15019992-0393-43c7-8ac2-82a952a49970" name="Default" comment="" />
-      <created>1478729754142</created>
+      <changelist id="3a341108-c198-49e1-aeb8-c003c61ec310" name="Default" comment="" />
+      <created>1479435652918</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1478729754142</updated>
-      <workItem from="1478729757947" duration="1199000" />
-      <workItem from="1478747358669" duration="7456000" />
-      <workItem from="1478755393271" duration="67000" />
-      <workItem from="1478787305129" duration="861000" />
-      <workItem from="1478792783841" duration="3091000" />
-      <workItem from="1478807218521" duration="300000" />
-      <workItem from="1478808880075" duration="13000" />
-      <workItem from="1478816305941" duration="342000" />
-      <workItem from="1478843591799" duration="3074000" />
-      <workItem from="1478873519693" duration="2791000" />
-      <workItem from="1478906523436" duration="33000" />
-      <workItem from="1479133874262" duration="1612000" />
-      <workItem from="1479182791690" duration="6823000" />
-      <workItem from="1479221128590" duration="474000" />
-      <workItem from="1479222951421" duration="827000" />
-      <workItem from="1479226334706" duration="764000" />
-      <workItem from="1479227503240" duration="630000" />
-      <workItem from="1479229064376" duration="329000" />
-      <workItem from="1479342866648" duration="4364000" />
-      <workItem from="1479351017196" duration="2657000" />
-      <workItem from="1479403669652" duration="3042000" />
-      <workItem from="1479406859285" duration="291000" />
-      <workItem from="1479418755433" duration="22000" />
-      <workItem from="1479737982405" duration="748000" />
-      <workItem from="1479738997689" duration="898000" />
-      <workItem from="1479740302932" duration="1003000" />
-      <workItem from="1479756593693" duration="294000" />
-      <workItem from="1479758363908" duration="194000" />
-      <workItem from="1480256084252" duration="332000" />
-      <workItem from="1480256538046" duration="1000" />
-      <workItem from="1480269277933" duration="6089000" />
+      <updated>1479435652918</updated>
+      <workItem from="1479435654213" duration="1085000" />
+      <workItem from="1479445782207" duration="32000" />
+      <workItem from="1479445880369" duration="4282000" />
+      <workItem from="1479476939083" duration="2191000" />
+      <workItem from="1479486014862" duration="6964000" />
+      <workItem from="1479520248595" duration="10594000" />
+      <workItem from="1479608431515" duration="7170000" />
+      <workItem from="1479617502526" duration="1649000" />
+      <workItem from="1479619472142" duration="925000" />
+      <workItem from="1479741287864" duration="630000" />
+      <workItem from="1479756712608" duration="174000" />
+      <workItem from="1479758560009" duration="3058000" />
+      <workItem from="1479765235450" duration="2776000" />
+      <workItem from="1479769636661" duration="3861000" />
+      <workItem from="1479854968143" duration="3160000" />
+      <workItem from="1479871246977" duration="1427000" />
+      <workItem from="1479908188039" duration="2080000" />
+      <workItem from="1479925882180" duration="7279000" />
+      <workItem from="1479997185463" duration="9343000" />
+      <workItem from="1480008452715" duration="616000" />
+      <workItem from="1480256037462" duration="46000" />
+      <workItem from="1480279560925" duration="3066000" />
+      <workItem from="1480451072867" duration="13606000" />
+      <workItem from="1480469162978" duration="8309000" />
+      <workItem from="1480485024990" duration="1893000" />
+      <workItem from="1480520433445" duration="1543000" />
+      <workItem from="1480544321362" duration="15787000" />
+      <workItem from="1480565868027" duration="6189000" />
+      <workItem from="1480610218995" duration="6303000" />
+      <workItem from="1480625936070" duration="1428000" />
+      <workItem from="1480628602293" duration="2069000" />
+      <workItem from="1480631653342" duration="1706000" />
+      <workItem from="1480650120108" duration="1340000" />
+      <workItem from="1480656220608" duration="3459000" />
+      <workItem from="1480704118009" duration="287000" />
+      <workItem from="1480707092986" duration="1044000" />
+      <workItem from="1480711632067" duration="5460000" />
+      <workItem from="1480717293551" duration="656000" />
+      <workItem from="1480782493906" duration="2980000" />
+      <workItem from="1480788277505" duration="296000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50621000" />
+    <option name="totallyTimeSpent" value="146763000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-289" y="204" width="1386" height="700" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="51" width="991" height="629" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29927006" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25641027" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3468697" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.07293666" sideWeight="0.5082327" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32656515" sideWeight="0.4917673" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -434,204 +480,311 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Project/index.html" />
-    <entry file="file://$PROJECT_DIR$/Project/images/market.jpg" />
-    <entry file="file://$PROJECT_DIR$/Project/views/home/home.js" />
-    <entry file="file://$PROJECT_DIR$/Project/views/profile/profile.html" />
-    <entry file="file://$PROJECT_DIR$/Project/views/home/HomePage.html" />
-    <entry file="file://$PROJECT_DIR$/Project/views/login/LoginPage.html" />
-    <entry file="file://$PROJECT_DIR$/Project/index.html" />
-    <entry file="file://$PROJECT_DIR$/Project/views/register/Register.html" />
-    <entry file="file://$PROJECT_DIR$/Project/views/profile/profile.html" />
-    <entry file="file://$PROJECT_DIR$/Project/views/detail/detail.html" />
-    <entry file="file://$PROJECT_DIR$/Project/views/home/HomePage.html" />
-    <entry file="file://$PROJECT_DIR$/Project/images/market.jpg" />
-    <entry file="file://$PROJECT_DIR$/Project/views/home/home.js" />
-    <entry file="file://$PROJECT_DIR$/.openshift/README.md">
+    <entry file="file://$PROJECT_DIR$/assignment/models/widget/widget.model.server.js" />
+    <entry file="file://$PROJECT_DIR$/public/assignment/views/widget/widget-chooser.controller.js" />
+    <entry file="file://$PROJECT_DIR$/public/assignment/views/widget/widget-list.controller.js" />
+    <entry file="file://$USER_HOME$/Desktop/carousel/index.html" />
+    <entry file="file://$PROJECT_DIR$/public/assignment/views/widget/widget-text-editor.html" />
+    <entry file="file://$USER_HOME$/Desktop/jumbotron/index.html" />
+    <entry file="file://$PROJECT_DIR$/public/assignment/views/widget/widget-list.view.client.html" />
+    <entry file="file://$PROJECT_DIR$/public/assignment/image/facebook.jpg" />
+    <entry file="file://$PROJECT_DIR$/public/assignment/image/chir.jpg" />
+    <entry file="file://$PROJECT_DIR$/public/assignment/image/blackfriday.png" />
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="149">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/assignment/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state relative-caret-position="207">
+          <caret line="9" column="61" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/deplist.txt">
+    <entry file="file://$PROJECT_DIR$/assignment/models/models.server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="483">
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/public/assignment/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="46">
+          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Project/views/home/HomePage.html" />
-    <entry file="file://$PROJECT_DIR$/Project/views/database/userdata.html" />
-    <entry file="file://$PROJECT_DIR$/Project/views/database/database.js" />
-    <entry file="file://$PROJECT_DIR$/Project/views/database/database.html" />
-    <entry file="file://$PROJECT_DIR$/Web.config">
+    <entry file="file://$PROJECT_DIR$/assignment/models/comment/comment.schema.server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
+        <state relative-caret-position="253">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment/services/detail.service.server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assignment/services/detail.service.client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="59" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment/models/comment/comment.model.server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assignment/services/comment.service.client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="60" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment/services/comment.service.server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assignment/views/detail/detail.controller.client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1017">
+          <caret line="5" column="111" selection-start-line="5" selection-start-column="111" selection-end-line="5" selection-end-column="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assignment/image/market.jpg" />
+    <entry file="file://$PROJECT_DIR$/assignment/models/stuff/stuff.schema.server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment/models/stuff/stuff.model.server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="47" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assignment/views/detail/detail.view.client.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Project/js/script.js" />
-    <entry file="file://$PROJECT_DIR$/Project/views/profile/profile.js" />
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/public/assignment/views/user/profile.view.client.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="33" column="20" selection-start-line="33" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        <state relative-caret-position="46">
+          <caret line="2" column="56" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Project/views/detail/detail.js" />
-    <entry file="file://$PROJECT_DIR$/Project/views/detail/detail.html" />
-    <entry file="file://$PROJECT_DIR$/Project/views/profile/profile.html" />
-    <entry file="file://$PROJECT_DIR$/Project/views/login/login.js" />
-    <entry file="file://$PROJECT_DIR$/Project/views/register/Register.html" />
-    <entry file="file://$PROJECT_DIR$/Project/views/register/register.js" />
-    <entry file="file://$PROJECT_DIR$/Project/views/login/LoginPage.html" />
-    <entry file="file://$PROJECT_DIR$/Project/views/profile/success.html" />
-    <entry file="file://$PROJECT_DIR$/Project/js/app.js" />
-    <entry file="file://$PROJECT_DIR$/Project/index.html" />
-    <entry file="file://$PROJECT_DIR$/homepage.html" />
-    <entry file="file://$PROJECT_DIR$/homepage/homepage.html">
+    <entry file="file://$PROJECT_DIR$/public/assignment/views/user/register.view.client.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-          <folding />
+        <state relative-caret-position="46">
+          <caret line="2" column="56" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assignment/views/user/register.controller.client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assignment/services/user.service.client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="897">
+          <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment/services/user.service.server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2254">
+          <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment/models/user/user.model.server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment/models/user/user.schema.server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="65" selection-start-line="7" selection-start-column="65" selection-end-line="7" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assignment/js/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="26" column="60" selection-start-line="26" selection-start-column="60" selection-end-line="26" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assignment/image/logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assignment/image/facebook.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assignment/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assignment/views/user/login.view.client.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assignment/image/banana-puppy.jpg" />
+    <entry file="file://$PROJECT_DIR$/public/assignment/image/watermelon-pig.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assignment/image/fruit-animal.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assignment/image/supermarket.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assignment/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="127" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assignment/views/home/home.controller.client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/homepageimg.JPG">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="125" column="0" selection-start-line="125" selection-start-column="0" selection-end-line="129" selection-end-column="13" />
-          <folding>
-            <marker date="1480256270467" expanded="true" signature="3792:3853" ph="{...}" />
-          </folding>
+        <state relative-caret-position="322">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/project/views/register/register.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/project/views/login/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/project/views/register/Register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="60" column="12" selection-start-line="60" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/project/views/profile/profile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-253">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/public/image-for-home/projectvideo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="12" column="11" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="1380">
+          <caret line="60" column="6" selection-start-line="60" selection-start-column="6" selection-end-line="60" selection-end-column="6" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#1535#1542#0" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#1860#1867#0" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#2164#2171#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/project/images/facebook.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/project/images/facebook.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/project/index.html">
+    <entry file="file://$PROJECT_DIR$/public/assignment/views/home/home.view.client.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/project/views/profile/success.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="368">
+          <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
           <folding>
-            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/project/views/detail/detail.js">
+    <entry file="file://$PROJECT_DIR$/public/assignment/views/user/profile.controler.client.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="103" column="32" selection-start-line="103" selection-start-column="19" selection-end-line="103" selection-end-column="32" />
+        <state relative-caret-position="1771">
+          <caret line="77" column="9" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/project/views/login/LoginPage.html">
+    <entry file="file://$PROJECT_DIR$/public/assignment/views/user/facebook.view.client.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="14" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state relative-caret-position="207">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/project/views/detail/detail.html">
+    <entry file="file://$PROJECT_DIR$/public/assignment/views/user/login.controller.client.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="31" column="57" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
+        <state relative-caret-position="334">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.25" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

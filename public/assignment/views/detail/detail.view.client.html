@@ -1,0 +1,94 @@
+<div class="container" >
+    <nav>
+        <a href="#/home"><img src= "image/logo.png"></a>
+        <ul class="nav nav-pills pull-right">
+            <li><a href="#/home" ng-show="currentUser">Home</a></li>
+            <li><a href="#/login" ng-show ="!currentUser">Login</a></li>
+            <li><a href="#/register" ng-show ="!currentUser">Register</a></li>
+            <li><a href="#/user/{{currentUser._id}}" ng-show="currentUser">Profile</a></li>
+        </ul>
+    </nav>
+</div>
+
+
+<div class="container">
+
+<div ng-show="addToProfile" class="alert alert-success" role="alert"> {{feedBackMessage}}</div>
+<div ng-show="removeFromProfile" class="alert alert-danger" role="alert"> {{feedBackMessage}}</div>
+
+<table class="table table-striped">
+    <tbody>
+    <tr ng-repeat="stuff in model.stuffs.items">
+        {{stuff}}
+        <td>{{stuff.name}}</td>
+        <td>{{stuff.itemId}}</td>
+        <td>{{stuff.salePrice}}</td>
+        <td>{{stuff.shortDescription}}</td>
+        <td><img src="{{stuff.thumbnailImage}}" /></td>
+
+        <td ng-show="currentUser">
+            <button ng-show="!isLike " ng-click="model.addToFavorites(stuff)" class="btn btn-warning pull-right pull-right">
+                <span class="glyphicon glyphicon-star"></span>
+            </button>
+            <button ng-show="isLike " ng-click="model.removeStuff($index)" class="btn btn-danger pull-right pull-right">
+                <span class="glyphicon glyphicon-remove"></span>
+            </button>
+        </td>
+    </tr>
+
+    </tbody>
+</table>
+
+
+
+<!--Who likes this item-->
+<h2>Who Comments on this item</h2>
+<div ng-show="reomveComments" class="alert alert-info" role="alert"> {{removeMessage}}</div>
+
+<hr />
+
+<!-- user comments -->
+<div class="col-lg-12">
+    <div class="col-lg-12" id="comments-header">
+        Comments
+    </div>
+
+    <div ng-show="currentUser" class="user-comments col-lg-12">
+        <div ng-model="stuffComments" ng-repeat="comment in model.comments">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <div class="comment-info">
+                        <a class="btn btn-link" ng-click="model.checkUser(comment.username)">{{comment.username}}</a>
+                         commented on {{comment.date}}
+                    </div>
+                    <div class="comment-body">
+                        {{comment.comment}}
+                    </div>
+                    <div ng-if="currentUser.username == comment.username">
+                        <button ng-click="model.removeComment(comment._id)" class="btn btn-info pull-right">
+                            Remove Comment
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--Comment area-->
+
+<div id="user-comment-area" ng-repeat="stuff in model.stuffs.items">
+    <div ng-if="currentUser">
+        <textarea ng-model="currentComment" class="form-control" rows="3" id="textArea"></textarea>
+        <button ng-click="model.submitstuffComment(currentUser.username, stuff.itemId, currentComment)" class="btn btn-info pull-left" id="submit-comment-button">
+            Submit Comment
+        </button>
+    </div>
+    <div ng-if="!currentUser" id="register-message">
+        <a href="#/login">Login</a> or <a href="#/register">register</a>
+    </div>
+</div>
+</div>
+
+
