@@ -8,6 +8,8 @@ module.exports = function (app, model) {
     var cookieParser  = require('cookie-parser');
     var session       = require('express-session');
     var FacebookStrategy = require('passport-facebook').Strategy;
+    var bcrypt = require("bcrypt-nodejs");
+
 
 
     app.use(session({
@@ -116,6 +118,7 @@ module.exports = function (app, model) {
                     }
                     else {
                         console.log("--------------create user-----------")
+                        req.body.password = bcrypt.hashSync(req.body.password);
                         return model
                             .userModel
                             .createUser(req.body);
@@ -276,16 +279,17 @@ module.exports = function (app, model) {
     function localStrategy(username, password, done) {
         model
             .userModel
-            .findUserByCredentials(username, password)
+            .findUserByUsername(username)
             .then(
-                function(user){
-                    if (!user) {
+                function(user) {
+                    if(user && bcrypt.compareSync(password, user.password)) {
+                        return done(null, user);
+                    } else {
                         return done(null, false);
                     }
-                    return done(null, user);
                 },
-                function(error){
-                    res.sendStatus(400).send(error);
+                function(err) {
+                    if (err) { return done(err); }
                 }
             );
     }
