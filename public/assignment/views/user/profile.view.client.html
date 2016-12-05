@@ -12,9 +12,13 @@
 
 <div class="container">
 
-<h1 ng-show="currentUser">Welcome {{model.user.username}}</h1>
-
-
+<h1>
+    <button  ng-show="model.user.username == currentUser.username" class="btn btn-warning" type="button">
+        <a href="#/user/{{model.user._id}}/edit">
+            Edit Your Information
+        </a>
+    </button>
+</h1>
 
 <!--Button for like a user-->
 <div>

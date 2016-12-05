@@ -24,12 +24,17 @@
             checkFollow:checkFollow,
             removeFollowing:removeFollowing,
             removeFollower:removeFollower,
-            register:register
+            register:register,
+            editInfo:editInfo
 
         };
         return api;
 
 
+        function editInfo(person) {
+            return $http.put('/api/editInfo/'+ person._id, person);
+
+        }
 
         function register(username, password) {
             var newuser = {

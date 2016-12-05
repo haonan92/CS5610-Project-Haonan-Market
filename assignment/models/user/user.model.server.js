@@ -22,10 +22,25 @@ module.exports = function() {
         checkFollow:checkFollow,
         reomveFollowing:reomveFollowing,
         reomveFollower:reomveFollower,
-        findFacebookUser:findFacebookUser
+        findFacebookUser:findFacebookUser,
+        updateInfo:updateInfo
 
     }
     return api;
+
+    function updateInfo(userId,user) {
+        return UserModel
+            .update(
+                {
+                    _id:userId
+                },
+                {
+                    firstname:user.firstname,
+                    lastname:user.lastname,
+                    emailaddress:user.emailaddress
+                }
+            );
+    }
 
 
 

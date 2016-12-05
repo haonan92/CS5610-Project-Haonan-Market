@@ -50,6 +50,15 @@
                 }
             })
 
+            .when("/user/:userId/edit", {
+                templateUrl: "views/user/edit.view.client.html",
+                controller:"ProfileController",
+                controllerAs:"model",
+                resolve: {
+                    checkLogin: checkLogin
+                }
+            })
+
             .when("/detail/:itemId", {
                 templateUrl: "views/detail/detail.view.client.html",
                 controller:"DetailController",

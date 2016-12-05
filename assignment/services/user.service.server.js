@@ -36,7 +36,7 @@ module.exports = function (app, model) {
 
 
 
-    app.get('/api/user', findUser);
+        app.get('/api/user', findUser);
         app.get('/api/user/:uid', findUserbyId);
         app.post('/api/user',createUser);
         app.post('/api/checkLogin',checkLogin);
@@ -52,7 +52,7 @@ module.exports = function (app, model) {
         app.delete("/api/reomveFollowing/:username/:index", reomveFollowing);
         app.delete('/api/reomveFollower/:username/:index',reomveFollower);
         app.post('/api/register', register);
-
+        app.put('/api/editInfo/:uid', editInfo);
 
 
 
@@ -100,6 +100,23 @@ module.exports = function (app, model) {
     }
 
 
+
+
+    function editInfo(req, res) {
+        var user = req.body;
+        var uid = req.params.uid;
+        console.log("------------hell from edit---------")
+        model
+            .userModel
+            .updateInfo(uid, user)
+            .then(
+                function (status) {
+                    res.send(200);
+                },
+                function (error) {
+                    res.sendStatus(400).send(error);
+                })
+    }
 
 
 

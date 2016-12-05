@@ -16,10 +16,20 @@
         vm.checkFollow = checkFollow;
         vm.removeFollowing = removeFollowing;
         vm.removeFollower = removeFollower;
+        vm.edit = edit;
 
         var currentUser = $rootScope.currentUser;
 
 
+
+        function edit(person) {
+            UserService
+                .editInfo(person)
+                .success(function (response) {
+                    init();
+                    vm.message = "Your Information has been updated";
+                })
+        }
 
 
 
