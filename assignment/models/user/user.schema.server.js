@@ -12,7 +12,7 @@ module.exports = function () {
         password: String,
         firstname: String,
         lastname: String,
-        emailaddress: String,
+        email: String,
             facebook: {
                 id:    String,
                 token: String,

@@ -37,7 +37,7 @@ module.exports = function() {
                 {
                     firstname:user.firstname,
                     lastname:user.lastname,
-                    emailaddress:user.emailaddress
+                    email:user.email
                 }
             );
     }
