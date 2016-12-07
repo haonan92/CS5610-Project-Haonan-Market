@@ -453,7 +453,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/CS5610-Project-Openshfit/cs5610project" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
@@ -588,12 +588,12 @@
       <workItem from="1480957350842" duration="266000" />
       <workItem from="1480972438996" duration="173000" />
       <workItem from="1480972917823" duration="80000" />
-      <workItem from="1480975051116" duration="397000" />
+      <workItem from="1480975051116" duration="510000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="152205000" />
+    <option name="totallyTimeSpent" value="152318000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="241" y="43" width="1058" height="744" extended-state="0" />
