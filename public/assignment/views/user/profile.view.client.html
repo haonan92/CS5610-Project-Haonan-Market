@@ -94,9 +94,6 @@
         <div class="panel-body">
             <li ng-repeat="follower in model.user.followers track by $index">
                 <a class="btn btn-link" ng-click="model.checkFollow(follower)">{{follower}}</a>
-                <button ng-show="model.user.username == currentUser.username"  class="btn btn-danger pull-right" ng-click="model.removeFollower($index)">
-                    Remove Follower
-                </button>
                 <hr />
             </li>
         </div>

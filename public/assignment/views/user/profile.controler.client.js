@@ -34,6 +34,7 @@
 
 
         function removeFollower(index) {
+            console.log(index);
             UserService
                 .removeFollower(index, currentUser)
                 .success(function (response) {
