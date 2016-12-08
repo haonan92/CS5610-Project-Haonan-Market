@@ -170,13 +170,11 @@ module.exports = function (app, model) {
     function reomveFollower(req, res) {
         var index = req.params.index;
         var name = req.params.username;
-        //console.log(index);
         model
             .userModel
             .reomveFollower(index, name)
             .then(
                 function(user){
-                    console.log(user);
                     res.json(user);
                 },
                 function(err){

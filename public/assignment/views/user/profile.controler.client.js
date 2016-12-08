@@ -34,7 +34,7 @@
 
 
         function removeFollower(index) {
-            console.log(index);
+            //console.log(index);
             UserService
                 .removeFollower(index, currentUser)
                 .success(function (response) {
@@ -47,7 +47,8 @@
 
         function removeFollowing(index) {
             //console.log(index);
-            UserService.removeFollowing(index, currentUser)
+            UserService
+                .removeFollowing(index, currentUser)
                 .success(function (response) {
                     init();
                 })

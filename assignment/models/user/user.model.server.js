@@ -51,12 +51,13 @@ module.exports = function() {
 
 
     function reomveFollower(index, name) {
+        console.log("-----------hello from remove follwer----------");
         return UserModel.findOne({ username: name }, function (err, user) {
-            UserModel.findOne({ username: user.followers[index] }, function (err, user2) {
+            UserModel.findOne({ username: user.followers[index]}, function (err, user2) {
                 user.followers.splice(index, 1);
                 user.save();
                 //get the index in follower by using user1 following
-                user2.followings.splice(user.followers.indexOf(user.followers[index]), 1);
+                user2.followings.splice(user.followings.indexOf(user.followers[index]), 1);
                 user2.save();
             });
 
